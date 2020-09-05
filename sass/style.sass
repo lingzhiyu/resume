@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600;650&display=swap')
+
+$name-font: 'Mulish', sans-serif
+$text-font: 'Open Sans', sans-serif
+$color-text: black
+$color-main: black
+
+a
+    text-decoration: none
+    color: $color-text
+    i
+        padding-left: 5px
+        padding-right: 5px
+
+body
+    margin: 0px
+    padding: 0px
+    font-family: $text-font
+    line-height: 1.3em
+    font-size: 11.5px
+    overflow: auto
+
+    @media not print
+        width: 215.9mm
+        height: 279.4mm
+        overflow: hidden
+        margin-top: 10px
+        padding-top: 5px
+        margin-left: auto
+        margin-right: auto
+        box-shadow: 0px 0px 5px #dadada
+
+header
+    text-align: center
+    margin: auto
+    margin-bottom: 12.5px
+
+    div.name
+        margin: 20px
+        font-family: $name-font
+        font-size: 27.5px
+
+hr
+    margin-bottom: 0px
+
+main
+    margin: auto
+    max-width: 90%
+
+h1
+    margin: 0px
+
+ul
+    padding-inline-start: 20px
+    margin-block-start: 0.4em
+    margin-block-end: 0.8em
+
+div.name
+    font-size: 2em
+    margin: 10px
+
+div.contact
+    display: flex
+    justify-content: center
+
+div.contact-item
+    padding-left: 15px
+    padding-right: 15px
+    padding-top: 5px
+    i
+        padding-right: 7.5px
+        padding-left: 0px
+        padding-bottom: 0px
+        padding-top: 0px
+
+div.section-content
+    margin: 10px
+
+div.section-title
+    display: flex
+    justify-content: center
+    font-weight: bold
+
+    div.center
+        flex-grow: 2
+        display: flex
+        justify-content: center
+        a
+            padding-top: 2px
+    div.left
+        width: 200px
+    div.right
+        width: 200px
+        text-align: right
+    div.project-subtitle
+        color: lighten($color-text, 30%)
+
+div.section-project-title
+    font-weight: bold
+    display: flex
+    div.project
+        flex-grow: 1
+
+div.section-item
+    margin-bottom: 15px
