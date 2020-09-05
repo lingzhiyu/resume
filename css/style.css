@@ -9,6 +9,10 @@ a i {
   padding-right: 5px;
 }
 
+i.fa-link {
+  padding-left: 6px;
+}
+
 body {
   margin: 0px;
   padding: 0px;
@@ -96,8 +100,9 @@ div.section-title div.center {
   display: flex;
   justify-content: center;
 }
-div.section-title div.center a {
+div.section-title div.center i {
   padding-top: 2px;
+  padding-right: 0px;
 }
 div.section-title div.left {
   width: 200px;
