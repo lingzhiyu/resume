@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@600;650&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600;650&display=swap');
 a {
   text-decoration: none;
   color: black;
@@ -16,7 +16,7 @@ i.fa-link {
 body {
   margin: 0px;
   padding: 0px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.3em;
   font-size: 11.5px;
   overflow: auto;
@@ -37,11 +37,12 @@ body {
 header {
   text-align: center;
   margin: auto;
-  margin-bottom: 12.5px;
+  margin-bottom: 11px;
 }
 header div.name {
-  margin: 20px;
-  font-family: "Mulish", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-family: 'Mulish', sans-serif;
   font-size: 27.5px;
 }
 
@@ -66,7 +67,7 @@ ul {
 
 div.name {
   font-size: 2em;
-  margin: 10px;
+  margin: 7.5px;
 }
 
 div.contact {
@@ -87,7 +88,7 @@ div.contact-item i {
 }
 
 div.section-content {
-  margin: 15px;
+  margin: 9px;
 }
 
 div.section-title {
@@ -124,7 +125,7 @@ div.section-project-title div.project {
 }
 
 div.section-item {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
