@@ -51,7 +51,7 @@ hr {
 
 main {
   margin: auto;
-  max-width: 90%;
+  max-width: 95%;
 }
 
 h1 {
@@ -93,7 +93,8 @@ div.section-content {
 div.section-title {
   display: flex;
   justify-content: center;
-  font-weight: bold;
+  font-weight: bolder;
+  font-size: 12px;
 }
 div.section-title div.center {
   flex-grow: 2;
